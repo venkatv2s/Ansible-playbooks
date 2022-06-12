@@ -1,0 +1,6 @@
+--- #Testing roles.
+- hosts: all
+  user: ansible
+  become: yes
+  roles: 
+          - testrole
